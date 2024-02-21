@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "ui",
+  "version": "1.0.0",
+  "description": "shared ui package",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
