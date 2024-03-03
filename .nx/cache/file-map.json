@@ -15,28 +15,28 @@
         "hash": "2225719408373372708"
       },
       {
-        "file": ".gitignore",
-        "hash": "6792843490517800935"
-      },
-      {
         "file": "package.json",
         "hash": "15700627505546242131"
       },
       {
-        "file": "pnpm-lock.yaml",
-        "hash": "5349848255390122400"
+        "file": ".gitignore",
+        "hash": "6792843490517800935"
       },
       {
         "file": "pnpm-workspace.yaml",
         "hash": "9750177317466281158"
       },
       {
+        "file": "nx.json",
+        "hash": "6885574788999547853"
+      },
+      {
         "file": "tailwind.config.js",
         "hash": "10874595921483645073"
       },
       {
-        "file": "nx.json",
-        "hash": "6885574788999547853"
+        "file": "pnpm-lock.yaml",
+        "hash": "5349848255390122400"
       }
     ],
     "projectFileMap": {
@@ -104,7 +104,11 @@
         },
         {
           "file": "apps/home/src/Home.jsx",
-          "hash": "15518927050339184581"
+          "hash": "2666703093216977225"
+        },
+        {
+          "file": "apps/home/src/SafeComponent.jsx",
+          "hash": "2368079267751280827"
         }
       ],
       "details": [
