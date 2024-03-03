@@ -41,4 +41,26 @@ pnpm add typescript -D //adding depencencies
 
 ## Running everything from the root
 
-`pnpm --filter home start`
+```
+pnpm --filter home start
+pnpm run -r build
+pnpm run --parallel -r build
+```
+
+## Installing Nx
+
+`pnpm add nx -D -w`
+
+## Running tasks with Nx
+
+`npx nx <target> <porject>`
+Example:
+
+```
+npm nx build ui
+npm nx home ui
+```
+
+## Monorepo workspace visualization :
+
+`npx nx graph`

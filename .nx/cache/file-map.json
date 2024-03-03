@@ -1,0 +1,130 @@
+{
+  "version": "6.0",
+  "nxVersion": "18.0.6",
+  "deps": {
+    "react": "^18.2.0",
+    "nx": "^18.0.6"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "package.json",
+        "hash": "5612800623299172766"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "16774899230441242947"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "9750177317466281158"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "6792843490517800935"
+      },
+      {
+        "file": "nx.json",
+        "hash": "6885574788999547853"
+      },
+      {
+        "file": "README.md",
+        "hash": "10489094736310217065"
+      }
+    ],
+    "projectFileMap": {
+      "ui": [
+        {
+          "file": "packages/ui/Button.tsx",
+          "hash": "5368325298208476028"
+        },
+        {
+          "file": "packages/ui/README.md",
+          "hash": "3985853979327772983"
+        },
+        {
+          "file": "packages/ui/index.js",
+          "hash": "859357975042866801"
+        },
+        {
+          "file": "packages/ui/package.json",
+          "hash": "13015665396311350387",
+          "deps": [
+            "npm:react",
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "packages/ui/tsconfig.json",
+          "hash": "18397928511174251187"
+        }
+      ],
+      "home": [
+        {
+          "file": "apps/home/.babelrc",
+          "hash": "8268513642698859463"
+        },
+        {
+          "file": "apps/home/.gitignore",
+          "hash": "11904718991324175022"
+        },
+        {
+          "file": "apps/home/package.json",
+          "hash": "11538765302703266337",
+          "deps": [
+            "npm:@babel/runtime",
+            "npm:react",
+            "npm:react-dom",
+            "ui",
+            "npm:@babel/core",
+            "npm:@babel/plugin-transform-runtime",
+            "npm:@babel/preset-env",
+            "npm:@babel/preset-react",
+            "npm:autoprefixer",
+            "npm:babel-loader",
+            "npm:css-loader",
+            "npm:dotenv-webpack",
+            "npm:html-webpack-plugin",
+            "npm:postcss",
+            "npm:postcss-loader",
+            "npm:style-loader",
+            "npm:tailwindcss",
+            "npm:webpack",
+            "npm:webpack-cli",
+            "npm:webpack-dev-server"
+          ]
+        },
+        {
+          "file": "apps/home/postcss.config.js",
+          "hash": "7255166273273728509"
+        },
+        {
+          "file": "apps/home/src/App.jsx",
+          "hash": "8675141122755034739"
+        },
+        {
+          "file": "apps/home/src/index.html",
+          "hash": "12982651652645652927"
+        },
+        {
+          "file": "apps/home/src/index.js",
+          "hash": "876476442987263623"
+        },
+        {
+          "file": "apps/home/src/index.scss",
+          "hash": "2107576987606339958"
+        },
+        {
+          "file": "apps/home/tailwind.config.js",
+          "hash": "8267595593675155456"
+        },
+        {
+          "file": "apps/home/webpack.config.js",
+          "hash": "13000164836680600420"
+        }
+      ]
+    }
+  }
+}

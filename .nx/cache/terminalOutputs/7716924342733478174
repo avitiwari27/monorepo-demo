@@ -1,0 +1,37 @@
+
+> home@1.0.0 build /home/leapfrog/Leapfrog/self/monorepo-demo/apps/home
+> webpack --mode production
+
+Failed to load ./.env.
+
+[1m[33mwarn[39m[22m - The `purge`/`content` options have changed in Tailwind CSS v3.0.
+[1m[33mwarn[39m[22m - Update your configuration file to eliminate this warning.
+[1m[33mwarn[39m[22m - https://tailwindcss.com/docs/upgrade-guide#configure-content-sources
+
+[1m[33mwarn[39m[22m - The `content` option in your Tailwind CSS configuration is missing or empty.
+[1m[33mwarn[39m[22m - Configure your content sources or your generated CSS will be missing styles.
+[1m[33mwarn[39m[22m - https://tailwindcss.com/docs/content-configuration
+
+[1m[33mwarn[39m[22m - The `darkMode` option in your Tailwind CSS configuration is set to `false`, which now behaves the same as `media`.
+[1m[33mwarn[39m[22m - Change `darkMode` to `media` or remove it entirely.
+[1m[33mwarn[39m[22m - https://tailwindcss.com/docs/upgrade-guide#remove-dark-mode-configuration
+asset [1m[32m388.js[39m[22m 130 KiB [1m[33m[compared for emit][39m[22m [1m[32m[minimized][39m[22m (id hint: vendors) 1 related asset
+asset [1m[32m161.js[39m[22m 16.4 KiB [1m[32m[emitted][39m[22m [1m[33m[compared for emit][39m[22m [1m[32m[minimized][39m[22m 1 related asset
+asset [1m[32m855.js[39m[22m 6.41 KiB [1m[33m[compared for emit][39m[22m [1m[32m[minimized][39m[22m 1 related asset
+asset [1m[32mmain.js[39m[22m 5.16 KiB [1m[33m[compared for emit][39m[22m [1m[32m[minimized][39m[22m (name: main)
+asset [1m[32mindex.html[39m[22m 259 bytes [1m[33m[compared for emit][39m[22m
+runtime modules 16.9 KiB 12 modules
+orphan modules 1.81 KiB [1m[33m[orphan][39m[22m 1 module
+cacheable modules 165 KiB
+  modules by path [1m../../node_modules/.pnpm/[39m[22m 150 KiB 16 modules
+  modules by path [1m./src/[39m[22m 12.7 KiB 3 modules
+  modules by path [1m../../packages/ui/dist/*.js[39m[22m 2.18 KiB
+    [1m../../packages/ui/dist/index.js[39m[22m 811 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m../../packages/ui/dist/Button.js[39m[22m 1.39 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+provide-module modules 84 bytes
+  [1mprovide shared module (default) react-dom@18.2.0 = ../../node_modules/.pnpm/reac...(truncated)[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  [1mprovide shared module (default) react@18.2.0 = ../../node_modules/.pnpm/react@18...(truncated)[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+consume-shared-module modules 84 bytes
+  [1mconsume shared module (default) react@^18.2.0 (singleton) (fallback: ../../node_...(truncated)[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  [1mconsume shared module (default) react-dom@^18.2.0 (singleton) (fallback: ../../n...(truncated)[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.90.3 compiled [1m[32msuccessfully[39m[22m in 3186 ms

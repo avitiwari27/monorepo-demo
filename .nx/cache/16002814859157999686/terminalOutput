@@ -1,0 +1,4 @@
+
+> ui@1.0.0 build /home/leapfrog/Leapfrog/self/monorepo-demo/packages/ui
+> rm -rf dist && tsc
+
