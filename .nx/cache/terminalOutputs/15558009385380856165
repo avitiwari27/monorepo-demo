@@ -1,0 +1,36 @@
+[2K[1G[1myarn run v1.22.21[22m
+[2K[1G[2m$ webpack --mode production[22m
+Failed to load ./.env.
+
+[1m[33mwarn[39m[22m - The `purge`/`content` options have changed in Tailwind CSS v3.0.
+[1m[33mwarn[39m[22m - Update your configuration file to eliminate this warning.
+[1m[33mwarn[39m[22m - https://tailwindcss.com/docs/upgrade-guide#configure-content-sources
+
+[1m[33mwarn[39m[22m - The `content` option in your Tailwind CSS configuration is missing or empty.
+[1m[33mwarn[39m[22m - Configure your content sources or your generated CSS will be missing styles.
+[1m[33mwarn[39m[22m - https://tailwindcss.com/docs/content-configuration
+
+[1m[33mwarn[39m[22m - The `darkMode` option in your Tailwind CSS configuration is set to `false`, which now behaves the same as `media`.
+[1m[33mwarn[39m[22m - Change `darkMode` to `media` or remove it entirely.
+[1m[33mwarn[39m[22m - https://tailwindcss.com/docs/upgrade-guide#remove-dark-mode-configuration
+asset [1m[32m961.js[39m[22m 130 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m (id hint: vendors) 1 related asset
+asset [1m[32m788.js[39m[22m 15.2 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m 1 related asset
+asset [1m[32m540.js[39m[22m 6.42 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m 1 related asset
+asset [1m[32mmain.js[39m[22m 5.15 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m (name: main)
+asset [1m[32mindex.html[39m[22m 262 bytes [1m[32m[emitted][39m[22m
+runtime modules 16.9 KiB 12 modules
+orphan modules 1.7 KiB [1m[33m[orphan][39m[22m 2 modules
+cacheable modules 163 KiB
+  modules by path [1m./node_modules/[39m[22m 150 KiB 16 modules
+  modules by path [1m./src/[39m[22m 12.5 KiB
+    [1m./src/index.js[39m[22m 16 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m./src/App.jsx + 2 modules[39m[22m 2.1 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js![1m./src/index.scss[39m[22m 10.3 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+provide-module modules 84 bytes
+  [1mprovide shared module (default) react-dom@18.2.0 = ./node_modules/reac...(truncated)[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  [1mprovide shared module (default) react@18.2.0 = ./node_modules/react/index.js[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+consume-shared-module modules 84 bytes
+  [1mconsume shared module (default) react@^18.2.0 (singleton) (fallback: ./node_modu...(truncated)[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  [1mconsume shared module (default) react-dom@^18.2.0 (singleton) (fallback: ./node_...(truncated)[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.90.3 compiled [1m[32msuccessfully[39m[22m in 2685 ms
+[2K[1GDone in 3.28s.

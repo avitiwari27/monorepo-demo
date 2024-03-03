@@ -1,5 +1,69 @@
 {
   "nodes": {
+    "details": {
+      "name": "details",
+      "type": "lib",
+      "data": {
+        "root": "apps/details",
+        "targets": {
+          "build": {
+            "executor": "nx:run-script",
+            "inputs": [
+              "noMarkdown",
+              "^noMarkdown"
+            ],
+            "dependsOn": [
+              "^build"
+            ],
+            "options": {
+              "script": "build"
+            },
+            "configurations": {}
+          },
+          "build:dev": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:dev"
+            },
+            "configurations": {}
+          },
+          "build:start": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:start"
+            },
+            "configurations": {}
+          },
+          "start": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start"
+            },
+            "configurations": {}
+          },
+          "start:live": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start:live"
+            },
+            "configurations": {}
+          },
+          "nx-release-publish": {
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "executor": "@nx/js:release-publish",
+            "options": {},
+            "configurations": {}
+          }
+        },
+        "sourceRoot": "apps/details",
+        "name": "details",
+        "projectType": "library",
+        "implicitDependencies": [],
+        "tags": []
+      }
+    },
     "ui": {
       "name": "ui",
       "type": "lib",
@@ -6216,6 +6280,103 @@
     }
   },
   "dependencies": {
+    "details": [
+      {
+        "source": "details",
+        "target": "npm:@babel/runtime",
+        "type": "static"
+      },
+      {
+        "source": "details",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "details",
+        "target": "npm:react-dom",
+        "type": "static"
+      },
+      {
+        "source": "details",
+        "target": "npm:@babel/core",
+        "type": "static"
+      },
+      {
+        "source": "details",
+        "target": "npm:@babel/plugin-transform-runtime",
+        "type": "static"
+      },
+      {
+        "source": "details",
+        "target": "npm:@babel/preset-env",
+        "type": "static"
+      },
+      {
+        "source": "details",
+        "target": "npm:@babel/preset-react",
+        "type": "static"
+      },
+      {
+        "source": "details",
+        "target": "npm:autoprefixer",
+        "type": "static"
+      },
+      {
+        "source": "details",
+        "target": "npm:babel-loader",
+        "type": "static"
+      },
+      {
+        "source": "details",
+        "target": "npm:css-loader",
+        "type": "static"
+      },
+      {
+        "source": "details",
+        "target": "npm:html-webpack-plugin",
+        "type": "static"
+      },
+      {
+        "source": "details",
+        "target": "npm:postcss",
+        "type": "static"
+      },
+      {
+        "source": "details",
+        "target": "npm:postcss-loader",
+        "type": "static"
+      },
+      {
+        "source": "details",
+        "target": "npm:style-loader",
+        "type": "static"
+      },
+      {
+        "source": "details",
+        "target": "npm:webpack",
+        "type": "static"
+      },
+      {
+        "source": "details",
+        "target": "npm:webpack-cli",
+        "type": "static"
+      },
+      {
+        "source": "details",
+        "target": "npm:webpack-dev-server",
+        "type": "static"
+      },
+      {
+        "source": "details",
+        "target": "npm:dotenv-webpack",
+        "type": "static"
+      },
+      {
+        "source": "details",
+        "target": "npm:tailwindcss",
+        "type": "static"
+      }
+    ],
     "ui": [
       {
         "source": "ui",
@@ -6242,11 +6403,6 @@
       {
         "source": "home",
         "target": "npm:react-dom",
-        "type": "static"
-      },
-      {
-        "source": "home",
-        "target": "ui",
         "type": "static"
       },
       {

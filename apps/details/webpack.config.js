@@ -1,25 +1,18 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPlugin");
 const Dotenv = require("dotenv-webpack");
-const path = require("path");
 const deps = require("./package.json").dependencies;
 module.exports = (_, argv) => ({
   output: {
-    publicPath: "http://localhost:3000/",
+    publicPath: "http://localhost:3001/",
   },
 
   resolve: {
     extensions: [".tsx", ".ts", ".jsx", ".js", ".json"],
-    alias: {
-      workspace: path.resolve(__dirname, "../../"),
-      // Add your alias configurations here
-      // For example:
-      // workspace: path.resolve(__dirname, 'path/to/workspace')
-    },
   },
 
   devServer: {
-    port: 3000,
+    port: 3001,
     historyApiFallback: true,
   },
 
@@ -48,12 +41,12 @@ module.exports = (_, argv) => ({
 
   plugins: [
     new ModuleFederationPlugin({
-      name: "home",
+      name: "details",
       filename: "remoteEntry.js",
-      remotes: {
-        details: "details@http://localhost:3001/remoteEntry.js",
+      remotes: {},
+      exposes: {
+        "./Details": "./src/Details.jsx",
       },
-      exposes: {},
       shared: {
         ...deps,
         react: {

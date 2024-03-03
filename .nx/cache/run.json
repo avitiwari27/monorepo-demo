@@ -1,29 +1,18 @@
 {
   "run": {
     "command": "nx build home",
-    "startTime": "2024-03-03T11:15:23.680Z",
-    "endTime": "2024-03-03T11:15:29.635Z",
+    "startTime": "2024-03-03T11:55:01.907Z",
+    "endTime": "2024-03-03T11:55:04.760Z",
     "inner": false
   },
   "tasks": [
     {
-      "taskId": "ui:build",
-      "target": "build",
-      "projectName": "ui",
-      "hash": "4559151159485511131",
-      "startTime": "2024-03-03T11:15:23.688Z",
-      "endTime": "2024-03-03T11:15:24.993Z",
-      "params": "",
-      "cacheStatus": "cache-miss",
-      "status": 0
-    },
-    {
       "taskId": "home:build",
       "target": "build",
       "projectName": "home",
-      "hash": "7716924342733478174",
-      "startTime": "2024-03-03T11:15:24.995Z",
-      "endTime": "2024-03-03T11:15:29.634Z",
+      "hash": "4102658571628271302",
+      "startTime": "2024-03-03T11:55:01.912Z",
+      "endTime": "2024-03-03T11:55:04.760Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 0

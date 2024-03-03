@@ -57,8 +57,8 @@ pnpm run --parallel -r build
 Example:
 
 ```
-npm nx build ui
-npm nx home ui
+npx nx build ui
+npx nx build home
 ```
 
 ## Monorepo workspace visualization :
